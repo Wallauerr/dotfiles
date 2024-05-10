@@ -1,11 +1,8 @@
 return {
-  {
-    "IogaMaster/neocord",
-    event = "VeryLazy",
-  },
+  "IogaMaster/neocord",
+  event = "VeryLazy",
 
   config = function()
-    -- The setup config table shows all available config options with their default values:
     require("neocord").setup({
       -- General options
       logo = "auto",                  -- "auto" or url
@@ -27,7 +24,7 @@ return {
       reading_text = "Reading %s",           -- Format string rendered when a read-only or unmodifiable file is loaded in the buffer (either string or function(filename: string): string)
       workspace_text = "Working on %s",      -- Format string rendered when in a git repository (either string or function(project_name: string|nil, filename: string): string)
       line_number_text = "Line %s out of %s", -- Format string rendered when `enable_line_number` is set to true (either string or function(line_number: number, line_count: number): string)
-      terminal_text = "Using Terminal",      -- Format string rendered when in terminal mode.
+      terminal_text = "Using Terminal",
     })
   end,
 }
