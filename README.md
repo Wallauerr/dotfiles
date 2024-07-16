@@ -16,23 +16,22 @@
 
 ## Instalação
 
-1. No linux navegue para o diretório `.config` e crie um diretório com o nome de nvim:
+1. No linux navegue para o diretório `.config`:
 
 ```
-mkdir nvim
-cd nvim
+cd ~/.config
 ```
 
 2. Clone o repositório para seu ambiente local:
 
 ```
-git clone https://github.com/Wallauerr/neovim.git
+git clone https://github.com/Wallauerr/nvim.git
 ```
 
 3. Acesse o diretório:
 
 ```
-cd neovim
+cd nvim
 ```
 
 4. Inicie o neovim:
