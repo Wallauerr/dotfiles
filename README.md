@@ -16,25 +16,13 @@
 
 ## Instalação
 
-1. No linux navegue para o diretório `.config`:
+1. Clone o repositório para seu ambiente local:
 
 ```
-cd ~/.config
+git clone https://github.com/Wallauerr/nvim.git && mv nvim .config
 ```
 
-2. Clone o repositório para seu ambiente local:
-
-```
-git clone https://github.com/Wallauerr/nvim.git
-```
-
-3. Acesse o diretório:
-
-```
-cd nvim
-```
-
-4. Inicie o neovim:
+2. Inicie o neovim:
 
 ```
 nvim
@@ -47,7 +35,9 @@ nvim
 
 ## Utilização
 
-1. ctrl + n: abrir tree files
+1. Abrir tree files: `ctrl + n`
+2. Abrir ou fechar terminal `space + ot`
+3. Navegar entre janelas `ctrl + h,j,k,l` 
 
 ## Contribuição
 
