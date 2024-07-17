@@ -28,7 +28,7 @@ git clone https://github.com/Wallauerr/nvim.git && mv nvim .config
 nvim
 ```
 
-5. Dentro do neovim instale o `eslint_d` e o `prettier` via Mason:
+3. Dentro do neovim instale o `eslint_d` e o `prettier` via Mason:
 
 
 ![Mason-cover](./.git_images/mason-cover.png)
