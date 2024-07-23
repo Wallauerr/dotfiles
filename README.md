@@ -43,7 +43,7 @@ nvim
 
 Siga as etapas abaixo para contribuir com este projeto:
 
-1. Dê um fork este repositório.
+1. Dê um fork neste repositório.
 2. Crie uma nova branch com sua feature/correção:
 
 ```
