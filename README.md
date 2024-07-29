@@ -18,7 +18,7 @@ Para instalar as configurações, siga estas etapas:
 1. Clone este repositório para o seu diretório home:
 
    ```bash
-   git clone https://github.com/lpopedv/dotfiles ~/dotfiles
+   git clone https://github.com/Wallauerr/dotfiles.git ~/Dotfiles
    ```
 
 2. Navegue até o diretório `dotfiles`:
