@@ -21,10 +21,10 @@ Para instalar as configurações, siga estas etapas:
    git clone https://github.com/Wallauerr/dotfiles.git ~/Dotfiles
    ```
 
-2. Navegue até o diretório `dotfiles`:
+2. Navegue até o diretório `Dotfiles`:
 
    ```bash
-   cd ~/dotfiles
+   cd ~/Dotfiles
    ```
 
 3. Use o GNU Stow para criar links simbólicos para os arquivos de configuração desejados:
