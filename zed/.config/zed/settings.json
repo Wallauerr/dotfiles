@@ -1,0 +1,49 @@
+{
+  "tabs": { "git_status": true, "file_icons": true },
+  "tab_bar": {
+    "show": true
+  },
+  "project_panel": { "dock": "right" },
+  "vim_mode": true,
+  "ui_font_size": 16,
+  "buffer_font_size": 16,
+  "buffer_font_family": "Hack Nerd Font Mono",
+  "base_keymap": "VSCode",
+  "relative_line_numbers": true,
+  "cursor_blink": false,
+  "format_on_save": "on",
+  "scrollbar": {
+    "show": "system"
+  },
+  "buffer_line_height": {
+    "custom": 1.5
+  },
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Ayu Dark"
+  },
+  "terminal": {
+    "shell": {
+      "program": "/bin/zsh"
+    },
+    "font_family": "Hack Nerd Font Mono",
+    "font_size": 16,
+    "line_height": {
+      "custom": 1.5
+    }
+  },
+  "languages": {
+    "TypeScript": {
+      "formatter": {
+        "code_actions": {
+          "source.fixAll.eslint": true
+        }
+      }
+    }
+  },
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  }
+}

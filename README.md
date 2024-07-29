@@ -1,71 +1,44 @@
-# Neovim
+# Dotfiles
 
-![Nvim cover](./.git_images/nvim-cover.png)
+Este repositório contém minhas configurações pessoais para diversas ferramentas utilizando GNU stow para facilitar o gerenciamento e setup em outros dispositivos.
 
-## Índice
+## O que é GNU Stow?
 
-- [Pré-requisitos](#pré-requisitos)
-- [Instalação](#instalação)
-- [Utilização](#utilização)
-- [Contribuição](#contribuição)
-- [Contato](#contato)
+GNU Stow é uma ferramenta de gerenciamento de pacotes symlink, que facilita a instalação de pacotes de software criando links simbólicos em diretórios de destino a partir de um diretório central. Isso permite manter os arquivos de configuração organizados em um único lugar e simplifica o processo de configuração em novos sistemas.
 
-## Pré-requisitos
+## Ferramentas Gerenciadas
 
-- [Neovim](https://neovim.io/)
+- **nvim (Neovim)**: Editor de texto
+- **ZED**: Editor de texto
 
 ## Instalação
 
-1. Clone o repositório para seu ambiente local:
+Para instalar as configurações, siga estas etapas:
 
+1. Clone este repositório para o seu diretório home:
+
+   ```bash
+   git clone https://github.com/lpopedv/dotfiles ~/dotfiles
+   ```
+
+2. Navegue até o diretório `dotfiles`:
+
+   ```bash
+   cd ~/dotfiles
+   ```
+
+3. Use o GNU Stow para criar links simbólicos para os arquivos de configuração desejados:
+   ```bash
+   stow nvim
+   stow zed
+   ```
+
+## Desinstalação
+
+Para remover as configurações, navegue até o diretório `dotfiles` e use o comando `stow -D` seguido do nome do pacote:
+
+```bash
+cd ~/dotfiles
+stow -D nvim
+stow -D zed
 ```
-git clone https://github.com/Wallauerr/nvim.git && mv nvim .config
-```
-
-2. Inicie o neovim:
-
-```
-nvim
-```
-
-3. Dentro do neovim instale o `eslint_d` e o `prettier` via Mason:
-
-
-![Mason-cover](./.git_images/mason-cover.png)
-
-## Utilização
-
-1. Abrir tree files: `ctrl + n`
-2. Abrir ou fechar terminal `space + ot`
-3. Navegar entre janelas `ctrl + h,j,k,l` 
-
-## Contribuição
-
-Siga as etapas abaixo para contribuir com este projeto:
-
-1. Dê um fork neste repositório.
-2. Crie uma nova branch com sua feature/correção:
-
-```
-git checkout -b nome-da-sua-branch
-```
-
-3. Realize as alterações e commits:
-
-```
-git commit -m "tipoDeModificação: Descrição das suas alterações"
-```
-
-Tipos de modificação: feat, fix, etc...
-
-4. Envie as alterações para o fork do repositório:
-
-```
-git push origin nome-da-sua-branch
-```
-
-5. Abra um Pull Request neste repositório (original).
-
-## Contato
-
-Se tiver alguma dúvida ou sugestão, você pode entrar em contato comigo por meio do email: wallauer@protonmail.com
