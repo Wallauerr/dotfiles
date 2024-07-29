@@ -38,7 +38,7 @@ Para instalar as configurações, siga estas etapas:
 Para remover as configurações, navegue até o diretório `Dotfiles` e use o comando `stow -D` seguido do nome do pacote:
 
 ```bash
-cd ~/dotfiles
+cd ~/Dotfiles
 stow -D nvim
 stow -D zed
 ```
