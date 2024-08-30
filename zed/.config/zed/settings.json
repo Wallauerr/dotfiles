@@ -11,7 +11,7 @@
   "base_keymap": "VSCode",
   "relative_line_numbers": true,
   "cursor_blink": false,
-  "format_on_save": "on",
+  "format_on_save": "off",
   "scrollbar": {
     "show": "system"
   },
