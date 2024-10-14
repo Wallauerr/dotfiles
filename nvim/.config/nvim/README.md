@@ -23,4 +23,10 @@
 
 1. Abrir tree files: `ctrl + n`
 2. Abrir ou fechar terminal `space + ot`
-3. Navegar entre janelas `ctrl + h,j,k,l` 
+3. Navegar entre janelas `ctrl + h,j,k,l`
+4. Abrir hover mouse: `ctrl + ci`
+5. Abrir code actions: `ctrl + ca`
+6. Abrir definições: `ctrl + cd`
+7. Scroll up: `ctrl + b`
+8. Scroll down: `ctrl + f`
+9. Próxima palavra: `ctrl + space`
