@@ -24,6 +24,7 @@ Dentro do neovim instale o `eslint_d` e o `prettier` via Mason:
 - Abrir tree files: `ctrl + n`
 - Abrir telescope: `ctrl + p`
 ### Navegação de janelas:
+- Abrir lazygit `space + lg`
 - Abrir ou fechar terminal `space + ot`
 - Navegar entre janelas `ctrl + h,j,k,l`
 ### Ações
@@ -32,6 +33,7 @@ Dentro do neovim instale o `eslint_d` e o `prettier` via Mason:
 - Abrir definições: `space + cd`
 ### Navegação em código
 - Navegar: `h,j,k,l`
+- Desfazer: `u`
 - Scroll up: `ctrl + b`
 - Scroll down: `ctrl + f`
 - Próxima palavra: `ctrl + space`
