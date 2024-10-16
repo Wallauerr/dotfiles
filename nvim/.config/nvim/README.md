@@ -11,10 +11,15 @@
 ## Pré-requisitos
 
 - [Neovim](https://neovim.io/)
+- [LazyGit](https://github.com/jesseduffield/lazygit)
 
 ## Instalação
 
-Dentro do neovim instale o `eslint_d` e o `prettier` via Mason:
+1. Instale o `lazygit` e configure um `alias` nas configurações do seu terminal:
+
+![Lazygit alias](./.git_images/alias-lazygit.png)
+
+2. Dentro do neovim instale o `eslint_d` e o `prettier` via Mason:
 
 ![Mason-cover](./.git_images/mason-configuration.png)
 
