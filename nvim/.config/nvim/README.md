@@ -1,6 +1,6 @@
 # Neovim
 
-![Nvim cover](./.git_images/nvim-cover.png)
+![Nvim cover](./.git_images/nvim-menu.png)
 
 ## Índice
 
@@ -16,7 +16,7 @@
 
 Dentro do neovim instale o `eslint_d` e o `prettier` via Mason:
 
-![Mason-cover](./.git_images/mason-cover.png)
+![Mason-cover](./.git_images/mason-configuration.png)
 
 ## Comandos
 
