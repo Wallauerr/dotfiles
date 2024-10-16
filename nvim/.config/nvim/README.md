@@ -12,6 +12,7 @@
 
 - [Neovim](https://neovim.io/)
 - [LazyGit](https://github.com/jesseduffield/lazygit)
+- [NerdFont](https://www.nerdfonts.com/font-downloads): para melhor experiência recomendasse o uso de uma nerdfont como a `JetBrainsMono NerdFont` para conseguir visualizar os ícones corretamente.
 
 ## Instalação
 
