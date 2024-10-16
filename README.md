@@ -23,8 +23,8 @@ GNU Stow é uma ferramenta de gerenciamento de pacotes symlink, que facilita a i
 
 ## Ferramentas Gerenciadas
 
-- [**nvim (Neovim)**](https://neovim.io/): Editor de texto
-- [**ZED**](https://zed.dev/): Editor de texto
+- [**nvim (Neovim)**](https://neovim.io/): Em caso de dúvidas, acesse as [configurações](./nvim/.config/nvim/README.md).
+- [**ZED**](https://zed.dev/)
 
 ## Instalação
 
