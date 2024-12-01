@@ -10,7 +10,7 @@
 
 ## Pré-requisitos
 
-- [LazyVim](https://www.lazyvim.org/)
+- [NeoVim](https://neovim.io/)
 - [LazyGit](https://github.com/jesseduffield/lazygit)
 - [NerdFont](https://www.nerdfonts.com/font-downloads): Para melhor experiência, recomenda-se o uso de uma Nerd Font, como a `JetBrainsMono Nerd Font`, para conseguir visualizar os ícones corretamente
 
