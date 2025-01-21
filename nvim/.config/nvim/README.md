@@ -13,6 +13,7 @@
 - [NeoVim](https://neovim.io/)
 - [LazyGit](https://github.com/jesseduffield/lazygit)
 - [NerdFont](https://www.nerdfonts.com/font-downloads): Para melhor experiência, recomenda-se o uso de uma Nerd Font, como a `JetBrainsMono Nerd Font`, para conseguir visualizar os ícones corretamente
+- [RipGrep](https://github.com/BurntSushi/ripgrep?tab=readme-ov-file#installation): Opcional, porém extremamente recomendado, o `ripgrep` remove diretórios como a `node_modules` da função `Find Files(space + space)` dentro do neovim.
 
 ## Instalação
 
@@ -20,9 +21,6 @@
 
 ![Lazygit alias](./.git_images/alias-lazygit.png)
 
-2. Dentro do neovim instale os pacotes via Mason:
-
-![Mason-cover](./.git_images/mason-configuration.png)
 
 ## Comandos
 
