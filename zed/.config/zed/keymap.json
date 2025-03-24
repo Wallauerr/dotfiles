@@ -28,10 +28,10 @@
       "space n f": "workspace::NewFile",
       "space f f": "editor::Format",
       "space .": "pane::DeploySearch",
-      "space w l": ["workspace::ActivatePaneInDirection", "Right"],
-      "space w h": ["workspace::ActivatePaneInDirection", "Left"],
-      "space w j": ["workspace::ActivatePaneInDirection", "Down"],
-      "space w k": ["workspace::ActivatePaneInDirection", "Up"]
+      "space w l": "workspace::ActivatePaneRight",
+      "space w h": "workspace::ActivatePaneLeft",
+      "space w j": "workspace::ActivatePaneDown",
+      "space w k": "workspace::ActivatePaneUp"
     }
   },
   {
@@ -63,8 +63,8 @@
   {
     "context": "Workspace",
     "bindings": {
-      "ctrl-b": "workspace::ToggleRightDock",
-      "ctrl-shift-b": "workspace::ToggleLeftDock"
+      "ctrl-shift-b": "workspace::ToggleRightDock",
+      "ctrl-b": "workspace::ToggleLeftDock"
     }
   }
 ]
