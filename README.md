@@ -24,7 +24,9 @@ GNU Stow é uma ferramenta de gerenciamento de pacotes symlink, que facilita a i
 ## Ferramentas Gerenciadas
 
 - [**LazyVim**](https://www.lazyvim.org/): Em caso de dúvidas, acesse as [configurações](./nvim/.config/nvim/README.md).
-- [**ZED**](https://zed.dev/)
+- [**ZED**](https://zed.dev/): Editor
+- [**Fish**](https://fishshell.com/): clique [aqui](./fish/.config/fish/README.MD) para ver mais informações.
+- [**Kitty**](https://sw.kovidgoyal.net/kitty/): Terminal
 
 ## Instalação
 
@@ -46,6 +48,8 @@ Para instalar as configurações, siga estas etapas:
    ```bash
    stow nvim
    stow zed
+   stow fish
+   stow kitty
    ```
 
 ## Desinstalação
@@ -54,6 +58,9 @@ Para remover as configurações, navegue até o diretório `Dotfiles` e use o co
 
 ```bash
 cd ~/Dotfiles
+
 stow -D nvim
 stow -D zed
+stow -D fish
+stow -D kitty
 ```
