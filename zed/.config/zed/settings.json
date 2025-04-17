@@ -8,7 +8,7 @@
   "vim_mode": false,
   "ui_font_size": 16,
   "buffer_font_size": 16,
-  "buffer_font_family": "JetBrainsMono Nerd Font Mono",
+  "buffer_font_family": "CaskaydiaCove Nerd Font",
   "base_keymap": "VSCode",
   "relative_line_numbers": true,
   "cursor_blink": false,
@@ -28,7 +28,7 @@
     "shell": {
       "program": "/bin/zsh"
     },
-    "font_family": "JetBrainsMono Nerd Font Mono",
+    "font_family": "CaskaydiaCove Nerd Font",
     "font_size": 16,
     "line_height": {
       "custom": 1.5
