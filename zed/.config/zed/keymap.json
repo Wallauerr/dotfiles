@@ -48,7 +48,7 @@
     "bindings": {
       "space space": "file_finder::Toggle",
       "space .": "pane::DeploySearch",
-      "space o t": "workspace::OpenTerminal",
+      /*"space o t": "workspace::OpenTerminal", <- TODO Adjust OpenTerminal */
       "space o p": "workspace::ToggleRightDock",
       "space n f": "workspace::NewFile"
     }
