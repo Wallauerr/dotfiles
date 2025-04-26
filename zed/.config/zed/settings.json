@@ -1,6 +1,11 @@
 {
   "icon_theme": "Symbols",
-  "tabs": { "git_status": true, "file_icons": true },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true,
+    "buffer_icons": true,
+    "tab_icons": true
+  },
   "tab_bar": {
     "show": true
   },
@@ -26,7 +31,7 @@
   },
   "terminal": {
     "shell": {
-      "program": "/bin/zsh"
+      "program": "/bin/fish"
     },
     "font_family": "CaskaydiaCove Nerd Font",
     "font_size": 16,
