@@ -13,6 +13,9 @@ if status is-interactive
         echo -n $USER
     end
 
+    # Bun PATH
+    set -gx PATH $PATH ~/.bun/bin
+
     # alias
     alias l "eza --icons"
     alias ll "eza --tree --icons"
