@@ -18,6 +18,7 @@ if status is-interactive
 
     # alias
     alias l "eza --icons"
-    alias ll "eza --tree --icons"
+    alias lt "eza --tree --icons"
+    alias ll "yazi"
     alias lg lazygit
 end
