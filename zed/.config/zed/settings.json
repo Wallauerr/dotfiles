@@ -29,6 +29,8 @@
     "light": "One Light",
     "dark": "Ayu Dark"
   },
+
+  // terminal config
   "terminal": {
     "shell": {
       "program": "/bin/fish"
@@ -39,16 +41,28 @@
       "custom": 1.5
     }
   },
-  "languages": {
-    "TypeScript": {
-      "formatter": "language_server"
-    },
-    "Elixir": {
-      "formatter": "language_server"
-    }
-  },
+
+  // telemetry
   "telemetry": {
     "diagnostics": false,
     "metrics": false
+  },
+
+  // Biome config
+  "formatter": {
+    "language_server": {
+      "name": "biome"
+    }
+  },
+  "code_actions_on_format": {
+    "source.fixAll.biome": true,
+    "source.organizeImports.biome": true
+  },
+  "lsp": {
+    "biome": {
+      "settings": {
+        "require_config_file": true
+      }
+    }
   }
 }
