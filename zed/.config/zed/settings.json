@@ -12,12 +12,11 @@
   "project_panel": { "dock": "left" },
   "vim_mode": false,
   "ui_font_size": 16,
+  "ui_font_family": "CaskaydiaCove Nerd Font",
   "buffer_font_size": 16,
   "buffer_font_family": "CaskaydiaCove Nerd Font",
-  "base_keymap": "VSCode",
   "relative_line_numbers": true,
   "cursor_blink": false,
-  "format_on_save": "on",
   "scrollbar": {
     "show": "system"
   },
@@ -46,6 +45,13 @@
   "telemetry": {
     "diagnostics": false,
     "metrics": false
+  },
+
+  // Elixir config
+  "languages": {
+    "Elixir": {
+      "formatter": "language_server"
+    }
   },
 
   // Biome config
