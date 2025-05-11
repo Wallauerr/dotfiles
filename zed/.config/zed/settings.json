@@ -1,74 +1,68 @@
 {
-  "icon_theme": "Symbols",
-  "tabs": {
-    "git_status": true,
-    "file_icons": true,
-    "buffer_icons": true,
-    "tab_icons": true
-  },
-  "tab_bar": {
-    "show": true
-  },
-  "project_panel": { "dock": "left" },
-  "vim_mode": false,
-  "ui_font_size": 16,
-  "ui_font_family": "CaskaydiaCove Nerd Font",
-  "buffer_font_size": 16,
-  "buffer_font_family": "CaskaydiaCove Nerd Font",
-  "relative_line_numbers": true,
-  "cursor_blink": false,
-  "scrollbar": {
-    "show": "system"
-  },
-  "buffer_line_height": {
-    "custom": 1.5
-  },
-  "theme": {
-    "mode": "dark",
-    "light": "One Light",
-    "dark": "Ayu Dark"
-  },
+	"icon_theme": "Symbols",
+	"tabs": {
+		"git_status": true,
+		"file_icons": true,
+		"buffer_icons": true,
+		"tab_icons": true
+	},
+	"tab_bar": {
+		"show": true
+	},
+	"project_panel": { "dock": "left" },
+	"vim_mode": false,
+	"ui_font_size": 16,
+	"ui_font_family": "CaskaydiaCove Nerd Font",
+	"buffer_font_size": 16,
+	"buffer_font_family": "CaskaydiaCove Nerd Font",
+	"relative_line_numbers": true,
+	"cursor_blink": false,
+	"scrollbar": {
+		"show": "system"
+	},
+	"buffer_line_height": {
+		"custom": 1.5
+	},
+	"theme": {
+		"mode": "dark",
+		"light": "One Light",
+		"dark": "Ayu Dark"
+	},
+	"soft_wrap": "preferred_line_length",
 
-  // terminal config
-  "terminal": {
-    "shell": {
-      "program": "/bin/fish"
-    },
-    "font_family": "CaskaydiaCove Nerd Font",
-    "font_size": 16,
-    "line_height": {
-      "custom": 1.5
-    }
-  },
+	// terminal config
+	"terminal": {
+		"shell": {
+			"program": "/bin/fish"
+		},
+		"font_family": "CaskaydiaCove Nerd Font",
+		"font_size": 16,
+		"line_height": {
+			"custom": 1.5
+		}
+	},
 
-  // telemetry
-  "telemetry": {
-    "diagnostics": false,
-    "metrics": false
-  },
+	// telemetry
+	"telemetry": {
+		"diagnostics": false,
+		"metrics": false
+	},
 
-  // Elixir config
-  "languages": {
-    "Elixir": {
-      "formatter": "language_server"
-    }
-  },
+	// Languages config
+	"languages": {
+		"Elixir": {
+			"formatter": "language_server"
+		}
+	},
 
-  // Biome config
-  "formatter": {
-    "language_server": {
-      "name": "biome"
-    }
-  },
-  "code_actions_on_format": {
-    "source.fixAll.biome": true,
-    "source.organizeImports.biome": true
-  },
-  "lsp": {
-    "biome": {
-      "settings": {
-        "require_config_file": true
-      }
-    }
-  }
+	// Biome config
+	"formatter": {
+		"language_server": {
+			"name": "biome"
+		}
+	},
+	"code_actions_on_format": {
+		"source.fixAll.biome": true,
+		"source.organizeImports.biome": true
+	}
 }
