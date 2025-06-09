@@ -1,5 +1,18 @@
 {
+	// General settings
+	"theme": {
+		"mode": "dark",
+		"light": "One Light",
+		"dark": "GitHub Dark Default"
+	},
 	"icon_theme": "Symbols",
+	"ui_font_size": 16,
+	"ui_font_family": "CaskaydiaCove Nerd Font",
+	"buffer_font_size": 16,
+	"buffer_font_family": "CaskaydiaCove Nerd Font",
+	"buffer_line_height": {
+		"custom": 1.5
+	},
 	"tabs": {
 		"git_status": true,
 		"file_icons": true,
@@ -10,25 +23,25 @@
 		"show": true
 	},
 	"project_panel": { "dock": "left" },
-	"vim_mode": false,
-	"ui_font_size": 16,
-	"ui_font_family": "CaskaydiaCove Nerd Font",
-	"buffer_font_size": 16,
-	"buffer_font_family": "CaskaydiaCove Nerd Font",
 	"relative_line_numbers": true,
 	"cursor_blink": false,
 	"scrollbar": {
 		"show": "system"
 	},
-	"buffer_line_height": {
-		"custom": 1.5
-	},
-	"theme": {
-		"mode": "dark",
-		"light": "One Light",
-		"dark": "GitHub Dark Default"
-	},
 	"soft_wrap": "preferred_line_length",
+
+	// Vim
+	"vim_mode": true,
+
+	// AI
+	"agent": {
+		"model_parameters": [],
+		"default_model": {
+			"provider": "zed.dev",
+			"model": "claude-sonnet-4"
+		},
+		"version": "2"
+	},
 
 	// terminal config
 	"terminal": {
