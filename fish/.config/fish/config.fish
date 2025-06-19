@@ -16,6 +16,12 @@ if status is-interactive
     # Bun PATH
     set -gx PATH $PATH ~/.bun/bin
 
+    # pnpm PATH
+    set -gx PNPM_HOME "/home/wallauer/.local/share/pnpm"
+    if not string match -q -- $PNPM_HOME $PATH
+      set -gx PATH "$PNPM_HOME" $PATH
+    end
+
     # alias
     alias l "eza --icons"
     alias lt "eza --tree --icons"
