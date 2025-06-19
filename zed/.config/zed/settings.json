@@ -31,11 +31,12 @@
 	"soft_wrap": "preferred_line_length",
 
 	// Vim
-	"vim_mode": true,
+	"vim_mode": false,
 
 	// AI
 	"agent": {
-		"model_parameters": [],
+		"always_allow_tool_actions": true,
+  "model_parameters": [],
 		"default_model": {
 			"provider": "zed.dev",
 			"model": "claude-sonnet-4"
