@@ -22,6 +22,11 @@ if status is-interactive
       set -gx PATH "$PNPM_HOME" $PATH
     end
 
+    # Load general variables
+    if test -f ~/.env
+        source ~/.env
+    end
+
     # alias
     alias l "eza --icons"
     alias lt "eza --tree --icons"
