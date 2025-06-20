@@ -24,7 +24,7 @@
 	},
 	"project_panel": { "dock": "left" },
 	"relative_line_numbers": true,
-	"cursor_blink": false,
+	"cursor_blink": true,
 	"scrollbar": {
 		"show": "system"
 	},
@@ -35,13 +35,30 @@
 
 	// AI
 	"agent": {
-		"always_allow_tool_actions": true,
-  "model_parameters": [],
 		"default_model": {
-			"provider": "zed.dev",
-			"model": "claude-sonnet-4"
+			"provider": "openrouter",
+			"model": "google/gemini-2.5-flash-preview-05-20"
 		},
+		"default_profile": "write",
+		"model_parameters": [],
+		"always_allow_tool_actions": true,
 		"version": "2"
+	},
+
+	// Context Servers
+	"context_servers": {
+		"mcp-server-context7": {
+			"settings": {
+				"context_server": {
+					"mcp-server-context7": {
+						"settings": {
+							"default_minimum_tokens": "10000"
+						}
+					}
+				},
+				"default_minimum_tokens": null
+			}
+		}
 	},
 
 	// terminal config
