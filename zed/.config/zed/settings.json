@@ -48,6 +48,7 @@
 	// Context Servers
 	"context_servers": {
 		"mcp-server-context7": {
+   "source": "extension",
 			"settings": {
 				"context_server": {
 					"mcp-server-context7": {
