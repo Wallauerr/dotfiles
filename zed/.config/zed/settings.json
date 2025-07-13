@@ -5,7 +5,7 @@
 		"light": "One Light",
 		"dark": "GitHub Dark Default"
 	},
-	"icon_theme": "Symbols",
+	"icon_theme": "Symbols Icon Theme",
 	"ui_font_size": 16,
 	"ui_font_family": "CaskaydiaCove Nerd Font",
 	"buffer_font_size": 16,
@@ -36,13 +36,12 @@
 	// AI
 	"agent": {
 		"default_model": {
-			"provider": "openrouter",
-			"model": "google/gemini-2.5-flash-preview-05-20"
+			"provider": "zed.dev",
+			"model": "claude-sonnet-4-thinking"
 		},
 		"default_profile": "write",
 		"model_parameters": [],
 		"always_allow_tool_actions": true,
-		"version": "2"
 	},
 
 	// Context Servers
