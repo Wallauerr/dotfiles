@@ -1,13 +1,10 @@
 # Dotfiles
+This repository contains my personal configurations for various tools using GNU Stow to facilitate management and setup on other devices.
 
-Este repositório contém minhas configurações pessoais para diversas ferramentas utilizando GNU stow para facilitar o gerenciamento e setup em outros dispositivos.
+## What is GNU Stow?
+GNU Stow is a symlink package manager that facilitates software package installation by creating symbolic links in target directories from a central directory. This allows keeping configuration files organized in a single place and simplifies the setup process on new systems.
 
-## O que é GNU Stow?
-
-GNU Stow é uma ferramenta de gerenciamento de pacotes symlink, que facilita a instalação de pacotes de software criando links simbólicos em diretórios de destino a partir de um diretório central. Isso permite manter os arquivos de configuração organizados em um único lugar e simplifica o processo de configuração em novos sistemas.
-
-## E para instalar o Stow?
-
+## How to install Stow?
 - **Arch distros**
 
    ```bash
@@ -19,33 +16,29 @@ GNU Stow é uma ferramenta de gerenciamento de pacotes symlink, que facilita a i
   ```bash
   sudo apt install stow
   ```
-- Para outras formas de instalação, consultar a documentaçao: https://www.gnu.org/software/stow/
+- For other installation methods, check the documentation: https://www.gnu.org/software/stow/
 
-## Ferramentas Gerenciadas
-
-- [**LazyVim**](https://www.lazyvim.org/): Em caso de dúvidas, acesse as [configurações](./nvim/.config/nvim/README.md).
+## Managed Tools
+- [**LazyVim**](https://www.lazyvim.org/): In case of questions, check the [configurations](./nvim/.config/nvim/README.md).
 - [**ZED**](https://zed.dev/): IDE.
-- [**Fish**](https://fishshell.com/): clique [aqui](./fish/.config/fish/README.MD) para ver mais informações.
+- [**Fish**](https://fishshell.com/): click [here](./fish/.config/fish/README.MD) for more information.
 - [**Kitty**](https://sw.kovidgoyal.net/kitty/): Terminal.
-- [**Yazi**](https://yazi-rs.github.io/): Explorador de arquivos.
+- [**Yazi**](https://yazi-rs.github.io/): File explorer.
 
-## Instalação
+## Installation
+To install the configurations, follow these steps:
 
-Para instalar as configurações, siga estas etapas:
-
-1. Clone este repositório para o seu diretório home:
-
+1. Clone this repository to your home directory:
    ```bash
    git clone https://github.com/Wallauerr/dotfiles.git ~/Dotfiles
    ```
 
-2. Navegue até o diretório `Dotfiles`:
-
+2. Navigate to the `Dotfiles` directory:
    ```bash
    cd ~/Dotfiles
    ```
 
-3. Use o GNU Stow para criar links simbólicos para os arquivos de configuração desejados:
+3. Use GNU Stow to create symbolic links for the desired configuration files:
    ```bash
    stow nvim
    stow zed
@@ -54,13 +47,10 @@ Para instalar as configurações, siga estas etapas:
    stow yazi
    ```
 
-## Desinstalação
-
-Para remover as configurações, navegue até o diretório `Dotfiles` e use o comando `stow -D` seguido do nome do pacote:
-
+## Uninstallation
+To remove the configurations, navigate to the `Dotfiles` directory and use the `stow -D` command followed by the package name:
 ```bash
 cd ~/Dotfiles
-
 stow -D nvim
 stow -D zed
 stow -D fish
