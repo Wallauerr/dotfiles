@@ -2,6 +2,11 @@ if status is-interactive
     # starship
     starship init fish | source
 
+    # Zellij
+    if not set -q ZELLIJ
+        zellij
+    end
+
     # remove the default fish greeting
     set -U fish_greeting
 
@@ -19,7 +24,7 @@ if status is-interactive
     # pnpm PATH
     set -gx PNPM_HOME "/home/wallauer/.local/share/pnpm"
     if not string match -q -- $PNPM_HOME $PATH
-      set -gx PATH "$PNPM_HOME" $PATH
+        set -gx PATH "$PNPM_HOME" $PATH
     end
 
     # Load general variables
@@ -30,6 +35,6 @@ if status is-interactive
     # alias
     alias l "eza --icons"
     alias lt "eza --tree --icons"
-    alias ll "yazi"
+    alias ll yazi
     alias lg lazygit
 end
