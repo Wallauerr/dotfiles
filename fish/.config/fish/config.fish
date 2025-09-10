@@ -4,7 +4,7 @@ if status is-interactive
 
     # Zellij
     if not set -q ZELLIJ
-        zellij
+        exec zellij
     end
 
     # remove the default fish greeting
