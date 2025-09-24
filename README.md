@@ -30,12 +30,12 @@ To install the configurations, follow these steps:
 
 1. Clone this repository to your home directory:
    ```bash
-   git clone https://github.com/Wallauerr/dotfiles.git ~/Dotfiles
+   git clone https://github.com/Wallauerr/dotfiles.git ~/dotfiles
    ```
 
-2. Navigate to the `Dotfiles` directory:
+2. Navigate to the `dotfiles` directory:
    ```bash
-   cd ~/Dotfiles
+   cd ~/dotfiles
    ```
 
 3. Use GNU Stow to create symbolic links for the desired configuration files:
@@ -48,9 +48,9 @@ To install the configurations, follow these steps:
    ```
 
 ## Uninstallation
-To remove the configurations, navigate to the `Dotfiles` directory and use the `stow -D` command followed by the package name:
+To remove the configurations, navigate to the `dotfiles` directory and use the `stow -D` command followed by the package name:
 ```bash
-cd ~/Dotfiles
+cd ~/dotfiles
 stow -D nvim
 stow -D zed
 stow -D fish
