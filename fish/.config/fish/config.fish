@@ -3,9 +3,9 @@ if status is-interactive
     starship init fish | source
 
     # Zellij
-    if not set -q ZELLIJ
-        exec zellij
-    end
+    # if not set -q ZELLIJ
+    #   exec zellij
+    #end
 
     # remove the default fish greeting
     set -U fish_greeting
