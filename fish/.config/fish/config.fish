@@ -38,3 +38,5 @@ if status is-interactive
     alias ll yazi
     alias lg lazygit
 end
+set -x N_PREFIX ~/.local/n
+set -x PATH ~/.local/n/bin $PATH
