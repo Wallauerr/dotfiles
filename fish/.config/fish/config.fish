@@ -27,6 +27,13 @@ if status is-interactive
         set -gx PATH "$PNPM_HOME" $PATH
     end
 
+    # Node.js version manager (n)
+    set -x N_PREFIX ~/.local/n
+    set -x PATH ~/.local/n/bin $PATH
+
+    # Local bin
+    set -gx PATH ~/.local/bin $PATH
+
     # Load general variables
     if test -f ~/.env
         source ~/.env
@@ -37,6 +44,5 @@ if status is-interactive
     alias lt "eza --tree --icons"
     alias ll yazi
     alias lg lazygit
+    alias zed zeditor
 end
-set -x N_PREFIX ~/.local/n
-set -x PATH ~/.local/n/bin $PATH
