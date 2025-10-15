@@ -44,5 +44,11 @@ if status is-interactive
     alias lt "eza --tree --icons"
     alias ll yazi
     alias lg lazygit
-    alias zed zeditor
+
+    # Zed
+    if not command -v zed &>/dev/null
+        if command -v zeditor &>/dev/null
+            alias zed zeditor
+        end
+    end
 end
