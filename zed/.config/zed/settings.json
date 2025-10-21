@@ -3,13 +3,13 @@
 	"theme": {
 		"mode": "dark",
 		"light": "One Light",
-		"dark": "GitHub Dark Default"
+		"dark": "Ayu Dark"
 	},
 	"icon_theme": "Symbols Icon Theme",
 	"ui_font_size": 16,
-	"ui_font_family": "CaskaydiaCove Nerd Font",
+	"ui_font_family": "CaskaydiaMono Nerd Font Mono",
 	"buffer_font_size": 16,
-	"buffer_font_family": "CaskaydiaCove Nerd Font",
+	"buffer_font_family": "CaskaydiaMono Nerd Font Mono",
 	"buffer_line_height": {
 		"custom": 1.5
 	},
@@ -66,7 +66,7 @@
 		"shell": {
 			"program": "/bin/fish"
 		},
-		"font_family": "CaskaydiaCove Nerd Font",
+		"font_family": "CaskaydiaMono Nerd Font Mono",
 		"font_size": 16,
 		"line_height": {
 			"custom": 1.5
