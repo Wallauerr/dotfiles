@@ -82,7 +82,8 @@
 	// Languages config
 	"languages": {
 		"Elixir": {
-			"formatter": "language_server"
+			"formatter": "language_server",
+			"format_on_save": "on"
 		}
 	},
 
