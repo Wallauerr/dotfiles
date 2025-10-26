@@ -28,7 +28,7 @@
 	"scrollbar": {
 		"show": "system"
 	},
-	"soft_wrap": "preferred_line_length",
+	"soft_wrap": "editor_width",
 
 	// Vim
 	"vim_mode": false,
