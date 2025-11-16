@@ -279,7 +279,7 @@ load_plugins {
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-theme "ayu-dark"
+theme "onedark"
 
 // Choose the base input mode of zellij.
 // Default: normal
@@ -460,3 +460,19 @@ show_startup_tips false
 // Default: true
 //
 // show_release_notes false
+
+themes {
+    onedark {
+        fg "#abb2bf"
+        bg "#23272e"
+        black "#3f4451"
+        red "#e05561"
+        green "#8cc265"
+        yellow "#d18f52"
+        blue "#4aa5f0"
+        magenta "#c162de"
+        cyan "#42b3c2"
+        white "#d7dae0"
+        orange "#d18f52"
+    }
+}
