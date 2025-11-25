@@ -1,100 +1,93 @@
 {
-	// General settings
-	"theme": {
-		"mode": "dark",
-		"light": "One Light",
-		"dark": "Ayu Dark"
-	},
-	"icon_theme": "Symbols Icon Theme",
-	"ui_font_size": 16,
-	"ui_font_family": "CaskaydiaMono Nerd Font Mono",
-	"buffer_font_size": 16,
-	"buffer_font_family": "CaskaydiaMono Nerd Font Mono",
-	"buffer_line_height": {
-		"custom": 1.5
-	},
-	"tabs": {
-		"git_status": true,
-		"file_icons": true,
-		"buffer_icons": true,
-		"tab_icons": true
-	},
-	"tab_bar": {
-		"show": true
-	},
-	"project_panel": { "dock": "left" },
-	"relative_line_numbers": true,
-	"cursor_blink": true,
-	"scrollbar": {
-		"show": "system"
-	},
-	"soft_wrap": "editor_width",
-
-	// Vim
-	"vim_mode": false,
-
-	// AI
-	"agent": {
-		"default_model": {
-			"provider": "zed.dev",
-			"model": "claude-sonnet-4-5"
-		},
-		"default_profile": "write",
-		"model_parameters": [],
-		"always_allow_tool_actions": true
-	},
-
-	// Context Servers
-	"context_servers": {
-		"mcp-server-context7": {
-			"source": "extension",
-			"settings": {
-				"context_server": {
-					"mcp-server-context7": {
-						"settings": {
-							"default_minimum_tokens": "10000"
-						}
-					}
-				},
-				"default_minimum_tokens": null
-			}
-		}
-	},
-
-	// terminal config
-	"terminal": {
-		"shell": {
-			"program": "/bin/fish"
-		},
-		"font_family": "CaskaydiaMono Nerd Font Mono",
-		"font_size": 16,
-		"line_height": {
-			"custom": 1.5
-		}
-	},
-
-	// telemetry
-	"telemetry": {
-		"diagnostics": false,
-		"metrics": false
-	},
-
-	// Languages config
-	"languages": {
-		"Elixir": {
-			"formatter": "language_server",
-			"format_on_save": "on"
-		}
-	},
-
-	// Biome config
-	"formatter": {
-		"language_server": {
-			"name": "biome"
-		}
-	},
-	"code_actions_on_format": {
-		"source.fixAll.biome": true,
-		"source.organizeImports.biome": true
-	}
+  // General settings
+  "theme": {
+    "mode": "dark",
+    "light": "One Light",
+    "dark": "Ayu Dark"
+  },
+  "icon_theme": "Symbols Icon Theme",
+  "ui_font_size": 16,
+  "ui_font_family": "CaskaydiaMono Nerd Font Mono",
+  "buffer_font_size": 16,
+  "buffer_font_family": "CaskaydiaMono Nerd Font Mono",
+  "buffer_line_height": {
+    "custom": 1.5
+  },
+  "tabs": {
+    "git_status": true,
+    "file_icons": true,
+    "buffer_icons": true,
+    "tab_icons": true
+  },
+  "tab_bar": {
+    "show": true
+  },
+  "project_panel": {
+    "dock": "left"
+  },
+  "relative_line_numbers": true,
+  "cursor_blink": true,
+  "scrollbar": {
+    "show": "system"
+  },
+  "soft_wrap": "editor_width",
+  // Vim
+  "vim_mode": false,
+  // AI
+  "agent": {
+    "default_model": {
+      "provider": "zed.dev",
+      "model": "claude-sonnet-4-5"
+    },
+    "default_profile": "write",
+    "model_parameters": [],
+    "always_allow_tool_actions": true
+  },
+  // Context Servers
+  "context_servers": {
+    "mcp-server-context7": {
+      "source": "extension",
+      "settings": {
+        "context_server": {
+          "mcp-server-context7": {
+            "settings": {
+              "default_minimum_tokens": "10000"
+            }
+          }
+        },
+        "default_minimum_tokens": null
+      }
+    }
+  },
+  // terminal config
+  "terminal": {
+    "shell": "system",
+    "font_family": "CaskaydiaMono Nerd Font Mono",
+    "font_size": 16,
+    "line_height": {
+      "custom": 1.5
+    }
+  },
+  // telemetry
+  "telemetry": {
+    "diagnostics": false,
+    "metrics": false
+  },
+  // Languages config
+  "languages": {
+    "Elixir": {
+      "formatter": "language_server",
+      "format_on_save": "on"
+    }
+  },
+  // Biome config
+  "formatter": {
+    "language_server": {
+      "name": "biome"
+    }
+  },
+  "code_actions_on_format": {
+    "source.fixAll.biome": true,
+    "source.organizeImports.biome": true
+  }
 }
