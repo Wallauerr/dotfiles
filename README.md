@@ -27,8 +27,10 @@ GNU Stow is a symlink package manager that facilitates software package installa
 - [**LazyVim**](https://www.lazyvim.org/): In case of questions, check the [configurations](./nvim/.config/nvim/README.md).
 - [**ZED**](https://zed.dev/): IDE.
 - [**Fish**](https://fishshell.com/): click [here](./fish/.config/fish/README.MD) for more information.
-- [**Kitty**](https://sw.kovidgoyal.net/kitty/): Terminal.
+- [**Kitty**](https://sw.kovidgoyal.net/kitty/)/[**Alacritty**](https://alacritty.org/): Terminal.
 - [**Yazi**](https://yazi-rs.github.io/): File explorer.
+- [**Zellij**](https://zellij.dev/): Terminal Workspace.
+- [**Hyprland**](https://hypr.land/): Modern wayland
 
 ## Installation
 
