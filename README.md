@@ -30,7 +30,7 @@ GNU Stow is a symlink package manager that facilitates software package installa
 - [**Kitty**](https://sw.kovidgoyal.net/kitty/)/[**Alacritty**](https://alacritty.org/): Terminal.
 - [**Yazi**](https://yazi-rs.github.io/): File explorer.
 - [**Zellij**](https://zellij.dev/): Terminal Workspace.
-- [**Hyprland**](https://hypr.land/): Modern wayland
+- [**Hyprland**](https://hypr.land/): Modern wayland.
 
 ## Installation
 
