@@ -21,8 +21,9 @@ bindings = [
 { key = "Insert", mods = "Control", action = "Copy" }
 ]
 
-[terminal]
-
 [terminal.shell]
 program = "/usr/bin/fish"
 args = ["-l"]
+
+[terminal]
+osc52 = "CopyPaste"
