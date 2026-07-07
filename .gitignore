@@ -9,3 +9,5 @@ foo.*
 data
 fish/.config/fish/fish_variables
 fish/.config/fish/completions
+*.bak
+yazi/.config/yazi/yazi.toml-*
