@@ -1,4 +1,9 @@
 if status is-interactive
+    # mise
+    if command -qv mise
+        mise activate fish | source
+    end
+
     # starship
     starship init fish | source
 
@@ -26,10 +31,6 @@ if status is-interactive
     if not string match -q -- $PNPM_HOME $PATH
         set -gx PATH "$PNPM_HOME" $PATH
     end
-
-    # Node.js version manager (n)
-    set -x N_PREFIX ~/.local/n
-    set -x PATH ~/.local/n/bin $PATH
 
     # Local bin
     set -gx PATH ~/.local/bin $PATH
