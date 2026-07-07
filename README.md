@@ -29,6 +29,7 @@ GNU Stow is a symlink package manager that facilitates software package installa
 - [**Fish**](https://fishshell.com/): click [here](./fish/.config/fish/README.MD) for more information.
 - [**Kitty**](https://sw.kovidgoyal.net/kitty/)/[**Alacritty**](https://alacritty.org/): Terminal.
 - [**Yazi**](https://yazi-rs.github.io/): File explorer.
+- [**Mise**](https://mise.en.dev/): Runtime version manager.
 - [**Zellij**](https://zellij.dev/): Terminal Workspace.
 - [**Hyprland**](https://hypr.land/): Modern wayland.
 
@@ -39,13 +40,13 @@ To install the configurations, follow these steps:
 1. Clone this repository to your home directory:
 
    ```bash
-   git clone https://github.com/Wallauerr/dotfiles.git ~/dotfiles
+   git clone https://github.com/Wallauerr/dotfiles.git ~/Dotfiles
    ```
 
-2. Navigate to the `dotfiles` directory:
+2. Navigate to the `Dotfiles` directory:
 
    ```bash
-   cd ~/dotfiles
+   cd ~/Dotfiles
    ```
 
 3. Use GNU Stow to create symbolic links for the desired configuration files:
@@ -56,9 +57,9 @@ To install the configurations, follow these steps:
 
 ## Uninstallation
 
-To remove the configurations, navigate to the `dotfiles` directory and use the `stow -D` command followed by the package name:
+To remove the configurations, navigate to the `Dotfiles` directory and use the `stow -D` command followed by the package name:
 
 ```bash
-cd ~/dotfiles
+cd ~/Dotfiles
 stow -D nvim
 ```
