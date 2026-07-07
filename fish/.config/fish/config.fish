@@ -46,7 +46,6 @@ if status is-interactive
     alias ll yazi
     alias lg lazygit
     alias c opencode
-    alias t='tmux attach || tmux new -s Work'
 
     # Zed
     if not command -v zed &>/dev/null
