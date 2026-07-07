@@ -2,6 +2,8 @@
 node = "24.18.0"
 "npm:typescript" = "latest"
 "npm:typescript-language-server" = "latest"
+"npm:pnpm" = "latest"
+bun = "latest"
 elixir = "1.20.1-otp-29"
 erlang = "29.0.2"
 lua-language-server = "latest"

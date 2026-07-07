@@ -23,15 +23,6 @@ if status is-interactive
         echo -n $USER
     end
 
-    # Bun PATH
-    set -gx PATH $PATH ~/.bun/bin
-
-    # pnpm PATH
-    set -gx PNPM_HOME "/home/wallauer/.local/share/pnpm"
-    if not string match -q -- $PNPM_HOME $PATH
-        set -gx PATH "$PNPM_HOME" $PATH
-    end
-
     # Local bin
     set -gx PATH ~/.local/bin $PATH
 
