@@ -11,3 +11,4 @@ fish/.config/fish/fish_variables
 fish/.config/fish/completions
 *.bak
 yazi/.config/yazi/yazi.toml-*
+opencode/.config/opencode/en-errors.json
