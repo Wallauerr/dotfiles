@@ -10,8 +10,7 @@
   "modules-left": [
     "custom/omarchy",
     "hyprland/workspaces",
-    "custom/window-info",
-    "custom/spotify"
+    "custom/window-info"
   ],
   "modules-center": [
     "clock",
@@ -55,14 +54,6 @@
     "interval": 1,
     "format": "{}",
     "tooltip": true
-  },
-  "custom/spotify": {
-    "format": "{}",
-    "return-type": "json",
-    "on-click": "playerctl -p spotify play-pause",
-    "on-scroll-up": "playerctl -p spotify next",
-    "on-scroll-down": "playerctl -p spotify previous",
-    "exec": "~/.config/waybar/scripts/spotify.sh"
   },
   "clock": {
     "format": "󱑂 {:%I:%M %p}",
