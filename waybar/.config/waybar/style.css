@@ -45,15 +45,6 @@ window#waybar {
     font-style: italic;
 }
 
-#custom-spotify {
-    color: @border_color;
-    padding: 0 12px;
-}
-
-#custom-spotify.paused {
-    color: @subtext_color;
-}
-
 #clock,
 #custom-setting,
 #custom-update,
