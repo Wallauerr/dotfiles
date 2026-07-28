@@ -1,0 +1,174 @@
+@import "../omarchy/current/theme/waybar.css";
+
+* {
+    font-family: "JetBrainsMono Nerd Font", "omarchy", sans-serif;
+    font-size: 13px;
+    border: none;
+    text-shadow: none;
+}
+
+window#waybar {
+    background-color: @background;
+    border: 2px solid @border_color;
+    border-radius: 12px;
+    color: @text_color;
+    margin: 8px 10px 0 10px;
+}
+
+#workspaces button:hover {
+    background: alpha(@border_color, 0.15);
+    color: @border_color;
+}
+
+#custom-omarchy {
+    color: @border_color;
+    font-size: 18px;
+    padding: 0 15px;
+}
+
+#workspaces button {
+    color: @subtext_color;
+    padding: 0 8px;
+    margin: 4px 2px;
+    border-radius: 8px;
+}
+
+#workspaces button.active {
+    background-color: @border_color;
+    color: @background;
+    font-weight: bold;
+}
+
+#custom-window-info {
+    color: @subtext_color;
+    padding: 0 10px;
+    font-style: italic;
+}
+
+#custom-spotify {
+    color: @border_color;
+    padding: 0 12px;
+}
+
+#custom-spotify.paused {
+    color: @subtext_color;
+}
+
+#clock,
+#custom-setting,
+#custom-update,
+#custom-voxtype,
+#custom-screenrecording-indicator,
+#custom-idle-indicator,
+#custom-notification-silencing-indicator,
+#bluetooth,
+#network,
+#pulseaudio,
+#cpu,
+#custom-expand-icon {
+    color: @border_color;
+    padding: 0 10px;
+}
+
+#clock {
+    font-weight: bold;
+    padding: 0 15px;
+}
+
+#battery {
+    padding: 0 12px;
+    margin: 0 2px;
+    color: @border_color;
+    border-bottom: 3px solid alpha(@border_color, 0.2);
+    transition: all 0.3s ease;
+}
+
+#battery.discharging {
+    border-bottom: 3px solid @indicator_red;
+}
+
+#battery.charging,
+#battery.plugged {
+    border-bottom: 3px solid @active_color;
+}
+
+tooltip {
+    background: @background;
+    border: 2px solid @border_color;
+    border-radius: 12px;
+}
+
+tooltip label {
+    color: @text_color;
+    padding: 10px;
+    font-family: "JetBrainsMono Nerd Font";
+}
+
+#custom-screenrecording-indicator.active,
+#custom-voxtype.recording,
+#custom-idle-indicator.active,
+#custom-notification-silencing-indicator.active {
+    color: @indicator_red;
+}
+
+.modules-left {
+    margin-left: 8px;
+}
+
+.modules-right {
+    margin-right: 8px;
+}
+
+#tray {
+    margin-right: 16px;
+}
+
+#bluetooth {
+    margin-right: 17px;
+}
+
+#network {
+    margin-right: 13px;
+}
+
+#custom-expand-icon {
+    margin-right: 18px;
+}
+
+#custom-update {
+    font-size: 10px;
+}
+
+#clock {
+    margin-left: 5px;
+}
+
+#custom-screenrecording-indicator,
+#custom-idle-indicator,
+#custom-notification-silencing-indicator {
+    min-width: 12px;
+    margin-left: 5px;
+    margin-right: 0;
+    font-size: 10px;
+    padding-bottom: 1px;
+}
+
+#custom-voxtype {
+    min-width: 12px;
+    margin: 0 0 0 7.5px;
+}
+
+#custom-weather {
+    margin-left: 7.5px;
+    margin-right: 7.5px;
+}
+
+#custom-weather.unavailable {
+    min-width: 0;
+    margin: 0;
+    padding: 0;
+}
+
+.hidden {
+    opacity: 0;
+}
