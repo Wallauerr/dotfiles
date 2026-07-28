@@ -64,29 +64,29 @@ get_bars() {
 get_music_info() {
     local player=$(get_active_player)
     
-    # Check if a player actually exists
     if [ -z "$player" ]; then
-        echo -n "No Media Playing"
+        echo -n "󰎆  Silence"
         return
     fi
 
-    # Fetch Title and Artist
+    local status=$(playerctl -p "$player" status 2>/dev/null)
+    if [ "$status" != "Playing" ]; then
+        echo -n "󰎆  Silence"
+        return
+    fi
+
     local title=$(playerctl -p "$player" metadata --format "{{title}}" 2>/dev/null)
     local artist=$(playerctl -p "$player" metadata --format "{{artist}}" 2>/dev/null)
 
-    # If title is empty, use filename or "Unknown"
     [ -z "$title" ] && title="Unknown Track"
     [ -z "$artist" ] && artist="Unknown Artist"
 
-    # Truncate long names to prevent layout breaking
     [ ${#title} -gt 25 ] && title="${title:0:22}..."
     [ ${#artist} -gt 20 ] && artist="${artist:0:17}..."
 
-    # Clean the strings
     local c_title=$(sanitize "$title")
     local c_artist=$(sanitize "$artist")
 
-    # The Final Pango String
     echo -n "<span weight='bold' color='$COLOR_TITLE'>$c_title</span> <span color='$COLOR_ARTIST'>by $c_artist</span>"
 }
 
