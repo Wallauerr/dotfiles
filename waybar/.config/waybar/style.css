@@ -9,7 +9,6 @@
 
 window#waybar {
     background-color: @background;
-    border: 2px solid @border_color;
     border-radius: 12px;
     color: @text_color;
     margin: 8px 10px 0 10px;
