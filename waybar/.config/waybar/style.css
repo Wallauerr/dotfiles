@@ -123,11 +123,6 @@ tooltip label {
 
 #custom-expand-icon {
     margin-right: 18px;
-    transition: transform 0.3s ease;
-}
-
-#tray-expander.drawer-open #custom-expand-icon {
-    transform: rotate(90deg);
 }
 
 #custom-update {
