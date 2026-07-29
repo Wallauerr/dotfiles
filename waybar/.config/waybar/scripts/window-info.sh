@@ -39,7 +39,7 @@ case "$CLASS" in
     *google-slides*|*chrome-slides.google.com*) ICON="󰈧"; NAME="Slides" ;;
     *google-meet*|*chrome-meet.google.com*) ICON="󰻵"; NAME="Meet" ;;
     *google-photos*|*chrome-photos.google.com*) ICON="󰄄"; NAME="Photos" ;;
-    *youtube-music*|*chrome-music.youtube*) ICON=""; NAME="Music" ;;
+    *youtube-music*|*youtube*music*|*chrome-music.youtube*) ICON=""; NAME="Music" ;;
     *google-youtube*|*chrome-youtube.com*) ICON="󰗃"; NAME="YouTube" ;;
     *chrome-www.google.com*) ICON=""; NAME="Google" ;;
     *notebooklm*) ICON="󰠮"; NAME="NotebookLM" ;;
