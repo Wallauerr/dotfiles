@@ -28,7 +28,7 @@ if [[ "$CLASS" == chrome-* ]]; then
 fi
 
 case "$CLASS" in
-    *google-chrome*) ICON=""; NAME="Chrome" ;;
+    *google-chrome*|*chromium*) ICON=""; NAME="Chrome" ;;
     *google-gmail*|*chrome-mail.google.com*) ICON="󰊭"; NAME="Gmail" ;;
     *google-drive*|*chrome-drive.google.com*) ICON="󰝰"; NAME="Drive" ;;
     *google-calendar*|*chrome-calendar.google.com*) ICON="󰸗"; NAME="Calendar" ;;
@@ -39,6 +39,7 @@ case "$CLASS" in
     *google-slides*|*chrome-slides.google.com*) ICON="󰈧"; NAME="Slides" ;;
     *google-meet*|*chrome-meet.google.com*) ICON="󰻵"; NAME="Meet" ;;
     *google-photos*|*chrome-photos.google.com*) ICON="󰄄"; NAME="Photos" ;;
+    *youtube-music*|*chrome-music.youtube*) ICON=""; NAME="Music" ;;
     *google-youtube*|*chrome-youtube.com*) ICON="󰗃"; NAME="YouTube" ;;
     *chrome-www.google.com*) ICON=""; NAME="Google" ;;
     *notebooklm*) ICON="󰠮"; NAME="NotebookLM" ;;
@@ -58,20 +59,20 @@ case "$CLASS" in
     *gemini*) ICON="󰊉"; NAME="Gemini AI" ;;
     *claude*) ICON="󰊉"; NAME="Claude AI" ;;
     *perplexity*) ICON="󰚩"; NAME="Perplexity" ;;
-    *zen-browser*) ICON="󰈹"; NAME="Zen" ;;
+    *zen*|*org.zen*) ICON=""; NAME="Zen" ;;
     *firefox*) ICON=""; NAME="Firefox" ;;
     *librewolf*) ICON="󰈹"; NAME="LibreWolf" ;;
     *brave*) ICON="󰖟"; NAME="Brave" ;;
     *mullvad*) ICON="󰇚"; NAME="Mullvad" ;;
     *vivaldi*) ICON=""; NAME="Vivaldi" ;;
-    *discord*) ICON=""; NAME="Discord" ;;
-    *telegram*|*ayugram*) ICON=""; NAME="Telegram" ;;
+    *discord*) ICON=""; NAME="Discord" ;;
+    *telegram*|*ayugram*) ICON=""; NAME="Telegram" ;;
     *whatsapp*) ICON=""; NAME="WhatsApp" ;;
     *signal*) ICON="󰭹"; NAME="Signal" ;;
     *reddit*) ICON=""; NAME="Reddit" ;;
     *code*|*vscodium*) ICON="󰨞"; NAME="VS Code" ;;
     *ghostty*|*kitty*|*alacritty*|*foot*) ICON=""; NAME="Terminal" ;;
-    *nvim*) ICON=""; NAME="Neovim" ;;
+    *electron*|*nvim*|*neovim*) ICON=""; NAME="Neovim" ;;
     *missioncenter*) ICON="󱓟"; NAME="Mission Center" ;;
     *warehouse*) ICON=""; NAME="Warehouse" ;;
     *bitwarden*) ICON="󰞀"; NAME="Bitwarden" ;;
