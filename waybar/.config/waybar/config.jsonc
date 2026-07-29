@@ -118,12 +118,12 @@
       "children-class": "tray-group-item"
     },
     "modules": [
-      "custom/expand-icon",
-      "tray"
+      "tray",
+      "custom/expand-icon"
     ]
   },
 "custom/expand-icon": {
-    "format": "",
+    "format": "",
     "tooltip": false
 },
   "tray": {
