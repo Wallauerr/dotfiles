@@ -72,7 +72,7 @@ case "$CLASS" in
     *reddit*) ICON=""; NAME="Reddit" ;;
     *code*|*vscodium*) ICON="󰨞"; NAME="VS Code" ;;
     *ghostty*|*kitty*|*alacritty*|*foot*) ICON=""; NAME="Terminal" ;;
-    *electron*|*nvim*|*neovim*) ICON=""; NAME="Neovim" ;;
+    *nvim*|*neovim*) ICON=""; NAME="Neovim" ;;
     *missioncenter*) ICON="󱓟"; NAME="Mission Center" ;;
     *warehouse*) ICON=""; NAME="Warehouse" ;;
     *bitwarden*) ICON="󰞀"; NAME="Bitwarden" ;;
