@@ -58,8 +58,25 @@
   "clock": {
     "format": "󱑂 {:%H:%M}",
     "format-alt": "󰃭 {:%d %B %Y}",
-    "tooltip": false,
-    "on-click-right": "omarchy-launch-floating-terminal-with-presentation omarchy-tz-select"
+    "tooltip-format": "<tt>{calendar}</tt>",
+    "calendar": {
+      "mode": "month",
+      "mode-mon-col": 3,
+      "weeks-pos": "left",
+      "on-scroll": 1,
+      "format": {
+        "months": "<span color='#000000' background='#4d81b7'><b>  {}  </b></span>",
+        "days": "<span color='#9affff'>{}</span>",
+        "weeks": "<span color='#67e6ff'><b>W{}</b></span>",
+        "weekdays": "<span color='#9c9dd1'><b>{}</b></span>",
+        "today": "<span color='#000000' background='#4d81b7'><b>{}</b></span>"
+      }
+    },
+    "actions": {
+      "on-click-right": "mode",
+      "on-scroll-up": "shift_up",
+      "on-scroll-down": "shift_down"
+    }
   },
   "custom/setting": {
     "format": "󰒓",
