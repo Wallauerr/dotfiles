@@ -22,7 +22,7 @@
     "custom/notification-silencing-indicator"
   ],
   "modules-right": [
-    "group/tray-expander",
+    "tray",
     "custom/setting",
     "bluetooth",
     "network",
@@ -111,21 +111,6 @@
     "signal": 10,
     "return-type": "json"
   },
-  "group/tray-expander": {
-    "orientation": "inherit",
-    "drawer": {
-      "transition-duration": 600,
-      "children-class": "tray-group-item"
-    },
-    "modules": [
-      "tray",
-      "custom/expand-icon"
-    ]
-  },
-"custom/expand-icon": {
-    "format": "",
-    "tooltip": false
-},
   "tray": {
     "icon-size": 14,
     "spacing": 15
