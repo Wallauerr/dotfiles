@@ -1,2 +1,7 @@
 @define-color background #000000;
 @define-color foreground #9affff;
+@define-color text_color #9affff;
+@define-color border_color #4d81b7;
+@define-color subtext_color #686163;
+@define-color active_color #60d1ef;
+@define-color indicator_red #8a8cc9;
