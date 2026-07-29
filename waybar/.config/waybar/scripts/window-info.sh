@@ -21,6 +21,8 @@ if [ "$CLASS" == "null" ] || [ -z "$CLASS" ]; then
     exit 0
 fi
 
+ORIG_CLASS="$CLASS"
+
 if [[ "$CLASS" == chrome-* ]]; then
     PWA_NAME=$(echo "$CLASS" | sed -E 's/chrome-.*\.([a-z0-9-]+)\.com.*/\1/')
     [[ "$PWA_NAME" == "www" ]] && PWA_NAME=$(echo "$CLASS" | sed -E 's/chrome-www\.([^.]*)\..*/\1/')
@@ -39,8 +41,7 @@ case "$CLASS" in
     *google-slides*|*chrome-slides.google.com*) ICON="󰈧"; NAME="Slides" ;;
     *google-meet*|*chrome-meet.google.com*) ICON="󰻵"; NAME="Meet" ;;
     *google-photos*|*chrome-photos.google.com*) ICON="󰄄"; NAME="Photos" ;;
-    *youtube-music*|*youtube*music*|*chrome-music.youtube*) ICON=""; NAME="Music" ;;
-    *google-youtube*|*chrome-youtube.com*) ICON="󰗃"; NAME="YouTube" ;;
+    *youtube*|*google-youtube*|*chrome-youtube*) ICON="󰗃"; NAME="YouTube" ;;
     *chrome-www.google.com*) ICON=""; NAME="Google" ;;
     *notebooklm*) ICON="󰠮"; NAME="NotebookLM" ;;
     *proton-mail*|*chrome-mail.proton.me*) ICON="󰇮"; NAME="Proton Mail" ;;
@@ -89,6 +90,11 @@ case "$CLASS" in
         NAME="${NAME^}"
         ;;
 esac
+
+if [[ "$CLASS" == "youtube" ]] && [[ "$ORIG_CLASS" == *music.youtube* ]]; then
+    ICON=""
+    NAME="Music"
+fi
 
 CLEAN_TITLE=$(echo "$TITLE" | sed -E 's/ — Mozilla Firefox| - Google Chrome| - Brave| - Visual Studio Code| — Zen Browser| - Discord| - YouTube//g')
 
