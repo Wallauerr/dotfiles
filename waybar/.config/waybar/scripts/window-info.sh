@@ -28,7 +28,7 @@ if [[ "$CLASS" == chrome-* ]]; then
 fi
 
 case "$CLASS" in
-    *google-chrome*) ICON=""; NAME="Chrome" ;;
+    *google-chrome*) ICON=""; NAME="Chrome" ;;
     *google-gmail*|*chrome-mail.google.com*) ICON="󰊭"; NAME="Gmail" ;;
     *google-drive*|*chrome-drive.google.com*) ICON="󰝰"; NAME="Drive" ;;
     *google-calendar*|*chrome-calendar.google.com*) ICON="󰸗"; NAME="Calendar" ;;
@@ -40,7 +40,7 @@ case "$CLASS" in
     *google-meet*|*chrome-meet.google.com*) ICON="󰻵"; NAME="Meet" ;;
     *google-photos*|*chrome-photos.google.com*) ICON="󰄄"; NAME="Photos" ;;
     *google-youtube*|*chrome-youtube.com*) ICON="󰗃"; NAME="YouTube" ;;
-    *chrome-www.google.com*) ICON=""; NAME="Google" ;;
+    *chrome-www.google.com*) ICON=""; NAME="Google" ;;
     *notebooklm*) ICON="󰠮"; NAME="NotebookLM" ;;
     *proton-mail*|*chrome-mail.proton.me*) ICON="󰇮"; NAME="Proton Mail" ;;
     *proton-calendar*) ICON="󰸗"; NAME="Proton Calendar" ;;
@@ -55,31 +55,31 @@ case "$CLASS" in
     *xournalpp*) ICON="󱞈"; NAME="Xournal++" ;;
     *foliate*) ICON="󰂵"; NAME="Foliate" ;;
     *chatgpt*) ICON="󰚩"; NAME="ChatGPT" ;;
-    *gemini*) ICON=""; NAME="Gemini AI" ;;
-    *claude*) ICON=""; NAME="Claude AI" ;;
+    *gemini*) ICON="󰊉"; NAME="Gemini AI" ;;
+    *claude*) ICON="󰊉"; NAME="Claude AI" ;;
     *perplexity*) ICON="󰚩"; NAME="Perplexity" ;;
     *zen-browser*) ICON="󰈹"; NAME="Zen" ;;
-    *firefox*) ICON=""; NAME="Firefox" ;;
+    *firefox*) ICON=""; NAME="Firefox" ;;
     *librewolf*) ICON="󰈹"; NAME="LibreWolf" ;;
     *brave*) ICON="󰖟"; NAME="Brave" ;;
     *mullvad*) ICON="󰇚"; NAME="Mullvad" ;;
-    *vivaldi*) ICON=""; NAME="Vivaldi" ;;
-    *discord*) ICON=""; NAME="Discord" ;;
-    *telegram*|*ayugram*) ICON=""; NAME="Telegram" ;;
-    *whatsapp*) ICON=""; NAME="WhatsApp" ;;
+    *vivaldi*) ICON=""; NAME="Vivaldi" ;;
+    *discord*) ICON=""; NAME="Discord" ;;
+    *telegram*|*ayugram*) ICON=""; NAME="Telegram" ;;
+    *whatsapp*) ICON=""; NAME="WhatsApp" ;;
     *signal*) ICON="󰭹"; NAME="Signal" ;;
-    *reddit*) ICON=""; NAME="Reddit" ;;
+    *reddit*) ICON=""; NAME="Reddit" ;;
     *code*|*vscodium*) ICON="󰨞"; NAME="VS Code" ;;
-    *ghostty*|*kitty*|*alacritty*) ICON=""; NAME="Terminal" ;;
-    *nvim*) ICON=""; NAME="Neovim" ;;
+    *ghostty*|*kitty*|*alacritty*|*foot*) ICON=""; NAME="Terminal" ;;
+    *nvim*) ICON=""; NAME="Neovim" ;;
     *missioncenter*) ICON="󱓟"; NAME="Mission Center" ;;
-    *warehouse*) ICON=""; NAME="Warehouse" ;;
+    *warehouse*) ICON=""; NAME="Warehouse" ;;
     *bitwarden*) ICON="󰞀"; NAME="Bitwarden" ;;
-    *nautilus*|*dolphin*|*thunar*) ICON=""; NAME="Files" ;;
+    *nautilus*|*dolphin*|*thunar*) ICON=""; NAME="Files" ;;
     *vlc*) ICON="󰕼"; NAME="VLC" ;;
-    *gimp*) ICON=""; NAME="GIMP" ;;
-    *inkscape*) ICON=""; NAME="Inkscape" ;;
-    *spotify*) ICON=""; NAME="Spotify" ;;
+    *gimp*) ICON=""; NAME="GIMP" ;;
+    *inkscape*) ICON=""; NAME="Inkscape" ;;
+    *spotify*) ICON=""; NAME="Spotify" ;;
     *minecraft*) ICON="󰍳"; NAME="Minecraft" ;;
     *retroarch*) ICON="󰊴"; NAME="RetroArch" ;;
     *) 
@@ -98,10 +98,10 @@ if [ ! -z "$WEB_MATCH" ]; then
     [[ "$NAME" == "Google AI Studio" ]] && NAME="AI Studio"
     
     case "$NAME" in
-        "AI Studio"|"Gemini") ICON="" ;;
-        "WhatsApp") ICON="" ;;
+        "AI Studio"|"Gemini") ICON="󰊉" ;;
+        "WhatsApp") ICON="" ;;
         "ChatGPT") ICON="󰚩" ;;
-        "Reddit") ICON="" ;;
+        "Reddit") ICON="" ;;
         "GitHub") ICON="󰊤" ;;
         "YouTube") ICON="󰗃" ;;
         "Gmail") ICON="󰊭" ;;
