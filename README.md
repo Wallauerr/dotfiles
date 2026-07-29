@@ -27,6 +27,8 @@ GNU Stow is a symlink package manager that facilitates software package installa
 - [**Hyprland**](https://hypr.land/): Window manager with custom keybinds, animations, gaps/rounding, groupbar, and window rules.
 - [**Waybar**](https://github.com/Alexays/Waybar): Status bar with themed modules (clock, weather, window-info, workspace, audio, network, bluetooth, battery). Clock shows calendar tooltip on hover. Tray icons always visible. Weather uses local script with emoji icons.
 - [**Omarchy**](https://opencode.ai): Theme system managed by **aether** — do NOT use `stow` on the `omarchy/` package. Aether writes theme files directly to `~/.config/omarchy/current/`. Custom additions there must be manually copied back here after `omarchy theme set`. This repo tracks the custom theme files as a reference.
+
+  > **Setup:** Place a `Profile.jpg` photo in `~/.config/omarchy/current/theme/scripts/` for the lockscreen (hyprlock) to display it.
 - [**LazyVim**](https://www.lazyvim.org/): In case of questions, check the [configurations](./nvim/.config/nvim/README.md).
 - [**ZED**](https://zed.dev/): IDE.
 - [**Fish**](https://fishshell.com/): click [here](./fish/.config/fish/README.MD) for more information.
