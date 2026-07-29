@@ -59,7 +59,7 @@ case "$CLASS" in
     *gemini*) ICON="󰊉"; NAME="Gemini AI" ;;
     *claude*) ICON="󰊉"; NAME="Claude AI" ;;
     *perplexity*) ICON="󰚩"; NAME="Perplexity" ;;
-    *zen*|*org.zen*) ICON=""; NAME="Zen" ;;
+    *zen*|*org.zen*) ICON=""; NAME="Zen" ;;
     *firefox*) ICON=""; NAME="Firefox" ;;
     *librewolf*) ICON="󰈹"; NAME="LibreWolf" ;;
     *brave*) ICON="󰖟"; NAME="Brave" ;;
