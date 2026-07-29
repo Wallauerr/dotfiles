@@ -74,13 +74,13 @@
     "signal": 7,
     "interval": 21600
   },
-  "custom/weather": {
-    "exec": "$OMARCHY_PATH/default/waybar/weather.sh",
+"custom/weather": {
+    "exec": "~/.config/waybar/scripts/weather.sh",
     "return-type": "json",
     "interval": 600,
-    "tooltip": false,
-    "on-click": "notify-send -u low \"$(omarchy-weather-status)\""
-  },
+    "tooltip": true,
+    "on-click": "notify-send -u low \"$(curl -s wttr.in/?format=3)\""
+},
   "custom/voxtype": {
     "exec": "omarchy-voxtype-status",
     "return-type": "json",
