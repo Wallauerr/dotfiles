@@ -54,8 +54,6 @@ To install the configurations, follow these steps:
 3. Use GNU Stow to create symbolic links for the desired configuration files:
 
    ```bash
-   stow hypr
-   stow waybar
    stow nvim
    ```
 
@@ -68,6 +66,4 @@ To remove the configurations, navigate to the `Dotfiles` directory and use the `
 ```bash
 cd ~/Dotfiles
 stow -D nvim
-stow -D waybar
-stow -D hypr
 ```
