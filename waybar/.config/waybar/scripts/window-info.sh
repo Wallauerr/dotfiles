@@ -65,7 +65,7 @@ case "$CLASS" in
     *brave*) ICON="󰖟"; NAME="Brave" ;;
     *mullvad*) ICON="󰇚"; NAME="Mullvad" ;;
     *vivaldi*) ICON=""; NAME="Vivaldi" ;;
-    *discord*) ICON=""; NAME="Discord" ;;
+    *discord*) ICON=""; NAME="Discord" ;;
     *telegram*|*ayugram*) ICON=""; NAME="Telegram" ;;
     *whatsapp*) ICON=""; NAME="WhatsApp" ;;
     *signal*) ICON="󰭹"; NAME="Signal" ;;
