@@ -17,10 +17,10 @@ NIGHT=false
 
 case "$CODE" in
     113)
-        if $NIGHT; then ICON=""; else ICON="☀️"; fi
+        if $NIGHT; then ICON="🌙"; else ICON="☀️"; fi
         ;;
     116)
-        if $NIGHT; then ICON=""; else ICON="⛅"; fi
+        if $NIGHT; then ICON="☁️"; else ICON="⛅"; fi
         ;;
     119|122) ICON="☁️" ;;
     143|248|260) ICON="🌫️" ;;
@@ -29,7 +29,7 @@ case "$CODE" in
     200|386|389|392) ICON="⛈️" ;;
     281|284) ICON="🌧️" ;;
     *)
-        if $NIGHT; then ICON=""; else ICON="☀️"; fi
+        if $NIGHT; then ICON="🌙"; else ICON="☀️"; fi
         ;;
 esac
 
