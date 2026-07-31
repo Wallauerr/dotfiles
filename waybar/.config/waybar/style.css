@@ -145,6 +145,7 @@ tooltip label {
 }
 
 #custom-weather {
+    font-family: "Weather Icons", "JetBrainsMono Nerd Font", sans-serif;
     margin-left: 7.5px;
     margin-right: 7.5px;
 }
