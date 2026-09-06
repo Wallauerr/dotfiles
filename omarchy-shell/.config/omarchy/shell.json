@@ -61,6 +61,16 @@
     "lock": 1260,
     "screensaver": 300
   },
-  "plugins": [],
-  "version": 1
+  "plugins": [
+    {
+      "id": "wallauer.lock"
+    }
+  ],
+  "version": 1,
+  "disabledPlugins": [
+    "omarchy.lock"
+  ],
+  "cloneSourceRestores": [
+    "wallauer.lock"
+  ]
 }
