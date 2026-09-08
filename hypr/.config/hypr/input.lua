@@ -6,6 +6,10 @@ hl.config({
     kb_layout = "us",
     kb_variant = "intl",
 
+    -- Omarchy defaults to compose:caps (CapsLock as Compose key).
+    -- Clear it so CapsLock behaves as a plain Caps Lock.
+    kb_options = "",
+
     -- Speed of keyboard repeat.
     repeat_rate = 40,
     repeat_delay = 600,
