@@ -11,3 +11,6 @@ tree-sitter = "latest"
 codex = "latest"
 gh = "latest"
 opencode = "latest"
+
+[settings.upgrade]
+auto_prune = false
