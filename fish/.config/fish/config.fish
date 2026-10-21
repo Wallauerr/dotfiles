@@ -1,9 +1,4 @@
 if status is-interactive
-    # mise
-    if command -qv mise
-        mise activate fish | source
-    end
-
     # starship
     starship init fish | source
 
@@ -44,4 +39,10 @@ if status is-interactive
             alias zed zeditor
         end
     end
+end
+
+# mise
+# outside the interactive block to also apply to non-interactive shells
+if command -qv mise
+    mise activate fish | source
 end
