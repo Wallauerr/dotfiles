@@ -10,7 +10,8 @@ lua-language-server = "latest"
 tree-sitter = "latest"
 codex = "latest"
 gh = "latest"
-opencode = "latest"
+opencode = { version = "latest", allow_builds = ["@opencode/cli"] }
+ollama = "latest"
 
 [settings.upgrade]
 auto_prune = false
