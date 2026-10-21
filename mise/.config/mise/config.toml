@@ -10,7 +10,7 @@ lua-language-server = "latest"
 tree-sitter = "latest"
 codex = "latest"
 gh = "latest"
-opencode = { version = "latest", allow_builds = ["@opencode/cli"] }
+"npm:opencode-ai" = { version = "latest", allow_builds = ["opencode-ai"] }
 ollama = "latest"
 
 [settings.upgrade]
