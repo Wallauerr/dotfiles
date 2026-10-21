@@ -38,7 +38,8 @@ GNU Stow is a symlink package manager that facilitates software package installa
 - [**Fish**](https://fishshell.com/): click [here](./fish/.config/fish/README.MD) for more information.
 - [**Ghostty**](https://ghostty.org/): Terminal (default via `xdg-terminals.list`, font ligatures support).
 - [**Yazi**](https://yazi-rs.github.io/): File explorer.
-- [**Mise**](https://mise.en.dev/): Runtime version manager.
+- [**Mise**](https://mise.en.dev/): Runtime version manager; also manages opencode, codex, gh and ollama.
+- [**Opencode**](https://opencode.ai): AI coding agent — config, skills and commands (installed by mise from npm).
 - [**Zellij**](https://zellij.dev/): Terminal Workspace.
 
 ## Installation
