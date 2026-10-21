@@ -26,7 +26,7 @@ GNU Stow is a symlink package manager that facilitates software package installa
 
 - [**Hyprland**](https://hypr.land/): Window manager with custom keybinds, animations, gaps/rounding, groupbar, and window rules.
 - [**Waybar**](https://github.com/Alexays/Waybar): Status bar with themed modules (clock, weather, window-info, workspace, audio, network, bluetooth, battery). Clock shows calendar tooltip on hover. Tray icons always visible. Weather uses local script with emoji icons.
-- [**Omarchy**](https://opencode.ai): Theme system managed by **aether**. Distributed across two packages that are safe to stow:
+- [**Omarchy**](https://omarchy.sh): Theme system managed by **aether**. Distributed across two packages that are safe to stow:
   - **`omarchy-shell`**: the Omarchy Quickshell config (`shell.json` — bar plugins, disabled stock plugins, and `cloneSourceRestores`). The Quickshell reload watcher debounces changes (150 ms), so symlinking is safe.
   - **`omarchy-plugins`**: the custom lock screen plugin `wallauer.lock` ("My Lock Screen") — a port of the hyprlock "Dashboard Edition" to the Omarchy/Quickshell lock screen, with music via MPRIS (no `playerctl` needed).
 
@@ -39,7 +39,7 @@ GNU Stow is a symlink package manager that facilitates software package installa
 - [**Ghostty**](https://ghostty.org/): Terminal (default via `xdg-terminals.list`, font ligatures support).
 - [**Yazi**](https://yazi-rs.github.io/): File explorer.
 - [**Mise**](https://mise.en.dev/): Runtime version manager; also manages opencode, codex, gh and ollama.
-- [**Opencode**](https://opencode.ai): AI coding agent — config, skills and commands (installed by mise from npm).
+- [**Opencode**](https://opencode.ai): AI coding agent — config, commands and skills (installed by mise from npm). Click [here](./opencode/.config/opencode/README.md) for more information.
 - [**Zellij**](https://zellij.dev/): Terminal Workspace.
 
 ## Installation
