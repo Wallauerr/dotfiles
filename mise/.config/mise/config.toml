@@ -3,6 +3,7 @@ node = "24.18.0"
 "npm:typescript" = "latest"
 "npm:typescript-language-server" = "latest"
 "npm:pnpm" = "latest"
+"npm:opencode-ai" = { version = "latest", allow_builds = ["opencode-ai"] }
 bun = "latest"
 elixir = "1.20.4-otp-29"
 erlang = "29.0.6"
@@ -10,8 +11,9 @@ lua-language-server = "latest"
 tree-sitter = "latest"
 codex = "latest"
 gh = "latest"
-"npm:opencode-ai" = { version = "latest", allow_builds = ["opencode-ai"] }
 ollama = "latest"
 
-[settings.upgrade]
-auto_prune = false
+[settings]
+self_update.auto = true
+self_update.check_duration = "7d"
+minimum_release_age = "7d"
