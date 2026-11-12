@@ -19,3 +19,15 @@
 ## Commands
 
 - [Key Maps](https://www.lazyvim.org/keymaps)
+
+## Theming
+
+This standalone config uses [Shatur/neovim-ayu](https://github.com/Shatur/neovim-ayu) through
+`lua/plugins/ayu-theme.lua`.
+
+> **On Omarchy:** the active Omarchy theme supplies the Neovim colorscheme. Its `neovim.lua`
+> is staged at `~/.local/state/omarchy/current/theme/neovim.lua` and linked to
+> `~/.config/nvim/lua/plugins/theme.lua`, so on a themed machine the colorscheme comes from
+> the `omarchy` Stow package, not from this one. See
+> [Neovim theming under Omarchy](../../../README.md#neovim-theming-under-omarchy) for the
+> Stow folding caveat.
